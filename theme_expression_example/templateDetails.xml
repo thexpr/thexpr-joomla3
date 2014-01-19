@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.2" type="template" client="site">
+    <name>Theme Expression Example</name>
+    <version>1.0</version>
+    <creationDate>November 2013</creationDate>
+    <author>Creative Pulse</author>
+    <authorEmail>joomla.support@creativepulse.gr</authorEmail>
+    <copyright>(C)2013 Creative Pulse. All rights reserved.</copyright>
+    <description>Theme Expression example template</description>
+
+    <files>
+        <filename>index.php</filename>
+        <filename>index.html</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>inc</folder>
+    </files>
+
+    <positions>
+        <position>header</position>
+        <position>left</position>
+        <position>right</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
+
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="page_width" type="text" default="940" label="Page width" description="Wrapping width in pixels. Default value: 940" />
+
+                <field name="region_widths" type="textarea" label="Region widths" filter="raw"
+                    description="Widths of module positions. Each line represents one position and the syntax
+                    requires the position name, a semi-colon and an integer number that represents width in pixels.
+                    Example: left:200. To set the width of main body use the keyword: mainbody"
+                />
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>

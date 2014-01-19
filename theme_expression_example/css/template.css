@@ -1,0 +1,60 @@
+
+/**
+ * Theme Expression
+ *
+ * @version 1.0
+ * @author Creative Pulse
+ * @copyright Creative Pulse 2013
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @link http://www.creativepulse.gr
+ */
+
+
+/* html formatting */
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/* layout */
+
+.region_left, .mainbody, .region_right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* styling */
+
+.region_header {
+    margin-bottom: 20px;
+}
+
+.mainbody {
+    background-color: #eee;
+    padding: 10px 30px;
+}
+
+.region_footer {
+    margin-top: 20px;
+}
